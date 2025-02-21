@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Dashboard from './component/ admin/dashboard/dashboard';
+import SidebarMenu from './component/ admin/sidebar/sidebar'
+import Admin from './component/ admin/admin';
 
 const AppRoutes = () => {
   return (
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/sidebar" element={<SidebarMenu/>}/>
+        <Route path="/" element={<Admin />} />
       </Routes>
   );
 };
