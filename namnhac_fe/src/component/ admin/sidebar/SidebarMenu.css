@@ -1,0 +1,116 @@
+/* Sidebar tổng thể */
+.custom-sidebar {
+  width: 400px;
+  background: #f8f9fc !important;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Tiêu đề MENU */
+.menu-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #6c757d;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* Phần nhóm menu */
+.menu-section {
+  font-size: 14px;
+  font-weight: bold;
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+/* Danh sách menu */
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Item menu */
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  color: #343a40;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.menu-item:hover {
+  background: #e7f0ff;
+  color: #0056b3;
+}
+
+/* Icon menu */
+.menu-item i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Badge tin nhắn */
+.badge {
+  background-color: #007bff;
+  color: white;
+  margin-left: auto;
+  font-size: 12px;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+
+/* Phím tắt */
+.shortcut {
+  margin-left: auto;
+  font-size: 12px;
+  color: gray;
+  background: #e9ecef;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+/* Phần User */
+.user-profile {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.user-name {
+  font-weight: bold;
+  display: block;
+}
+
+.user-role {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Nút mở menu */
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: #007bff !important;
+  color: white !important;
+}
+.menu-title {
+  font-size: 20px;
+  font-weight: bold; /* In đậm */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.menu-text {
+  font-weight: bold;
+  color: #333; /* Màu chữ tối hơn cho rõ */
+}
