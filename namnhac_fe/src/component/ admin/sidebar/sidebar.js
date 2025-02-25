@@ -13,9 +13,9 @@ export default function SidebarMenu() {
 
   const menuItems = [
     {
-      title: "Documents",
+      title: "Sản phẩm",
       items: [
-        { label: "New", icon: "pi pi-plus", shortcut: "Ctrl+N" },
+        { label: "Danh sách sản phẩm", icon: "pi pi-plus", shortcut: "Ctrl+N" },
         { label: "Search", icon: "pi pi-search", shortcut: "Ctrl+S" },
       ],
     },

@@ -1,0 +1,41 @@
+.tree-custom {
+  background: transparent !important; /* Xóa nền */
+  border: none !important; /* Xóa viền */
+  box-shadow: none !important; /* Xóa bóng đổ */
+  width: fit-content; /* Chỉ chiếm không gian theo nội dung */
+  padding: 0; /* Loại bỏ khoảng cách */
+}
+
+.product-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-toggle-btn {
+  background-color: #4CAF50; /* Màu xanh đẹp */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.menu-toggle-btn:hover {
+  background-color: #45a049;
+}
+
+.menu-container {
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease-out;
+}
+
+.menu-container.show {
+  height: auto;
+  padding: 10px 0;
+}

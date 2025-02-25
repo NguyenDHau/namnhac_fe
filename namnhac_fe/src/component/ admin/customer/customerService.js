@@ -5,26 +5,26 @@ export const CustomerService = {
                 resolve([
                     {
                         id: 1000,
-                        name: 'James Butt',
-                        country: { name: 'Algeria', code: 'dz' },
-                        company: 'Benton, John B Jr',
+                        name: 'Nguyễn Duy Hậu',
+                        country: { name: '0906446132', code: 'dz' },
+                        company: '6',
                         date: '2015-09-13',
                         status: 'unqualified',
                         verified: true,
                         activity: 17,
-                        representative: { name: 'Ioni Bowcher', image: 'ionibowcher.png' },
+                        representative: { name: '30.000.000 VNĐ', image: 'ionibowcher.png' },
                         balance: 70663
                     },
                     {
                         id: 1001,
-                        name: 'Josephine Darakjy',
-                        country: { name: 'Egypt', code: 'eg' },
-                        company: 'Chanay, Jeffrey A Esq',
+                        name: 'Hồ Đình Khuê',
+                        country: { name: '0702562229', code: 'eg' },
+                        company: '19',
                         date: '2019-02-09',
                         status: 'proposal',
                         verified: false,
                         activity: 31,
-                        representative: { name: 'Amy Elsner', image: 'amyelsner.png' },
+                        representative: { name: '65.000.000 VNĐ', image: 'amyelsner.png' },
                         balance: 82429
                     }
                 ]);
